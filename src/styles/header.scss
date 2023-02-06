@@ -1,0 +1,18 @@
+.header {
+  font-family: 'Playfair Display';
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 46px;
+  color: #3E3E3E;
+  padding-bottom: 30px;
+
+  .search {
+    margin-left: 70px;
+    position: absolute;
+    visibility: hidden;
+    width: 422.45px;
+    height: 32.36px;
+  }
+}

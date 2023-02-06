@@ -1,0 +1,30 @@
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  :hover {
+    background-color: #259609;
+    transition: 0.5s ease;
+
+    .moreInfoBtn {
+      background-color: #fff;
+      font-weight: bold;
+      color: #259609;
+    }
+  }
+
+  :active {
+    .moreInfoBtn {
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 3px;
+      color: #fff;
+      transition: 0.3s;
+    }
+  }
+
+  .card {
+    max-width: 282px;
+    min-width: 150px;
+  }
+}

@@ -1,0 +1,83 @@
+.card {
+  background-color: #fff;
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+  margin-bottom: 20px;
+
+  .content {
+    padding: 30px;
+  }
+
+  .rectange {
+    background: #259609;
+    border-radius: 2px 2px 0px 0px;
+    height: 6px;
+  }
+
+  .emblem {
+    text-align: right;
+  }
+
+  .title {
+    font-family: Helvetica, sans-serif;
+    padding: 30px 0 70px;
+
+    .business {
+      color: #259609;
+      font-size: 13px;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+
+    .cmi {
+      font-size: 20px;
+      line-height: 30px;
+      color: #3E3E3E;
+    }
+  }
+
+  .discription {
+    padding-bottom: 30px;
+
+    img {
+      padding-right: 10px;
+    }
+  }
+}
+
+.cardHover {
+  position: relative;
+  color: #fff;
+  line-height: 22px;
+
+  span {
+    font-weight: bold;
+  }
+
+  .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+  }
+
+  .titleh {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  .duration {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .date {
+    padding-bottom: 30px;
+  }
+
+  .price {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+}

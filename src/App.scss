@@ -1,0 +1,31 @@
+.App {
+  background-color: #f7f7f7;
+  max-width: 1440px;
+  font-family: 'Helvetica';
+
+
+  .content {
+    margin: 0;
+    padding: 0px 120px 0px 120px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .more-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #3E3E3E;
+    padding: 40px;
+    cursor: pointer;
+    img {
+      padding-left: 12px;
+    }
+  }
+}
